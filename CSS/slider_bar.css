@@ -1,0 +1,24 @@
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px; /* กำหนดความสูงเท่ากันทุกสไลด์ */
+  }
+  
+  .video-item {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .video-item figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: white; /* เปลี่ยนสีปุ่มลูกศร */
+  }
+  
